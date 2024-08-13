@@ -19,17 +19,17 @@ function imc () {
         }else if (valorIMC < 30){
             classificacao = 'balofo.';
         }else if (valorIMC < 35){
-            classificacao = 'com obesidade grau mórbida.';
+            classificacao = 'tem obesidade grau mórbida.';
         }else if (valorIMC < 40){
-            classificacao = 'com obesidade montanha';
+            classificacao = 'parece uma montanha';
         }else {
             classificacao = 'goza rapido';
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
+        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você ${classificacao}`;
        
     }else {
-        resultado.textContent = 'Preencha todos os campos!!!';
+        resultado.textContent = 'Preencha todos os campos, pvf !!!';
     }
 
 }
