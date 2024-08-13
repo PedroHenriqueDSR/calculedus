@@ -72,7 +72,7 @@ main{
     font: normal 1.5rem serif;
     box-shadow: 0px 0px 10px #ffffff;
     background: hsl(0, 0%, 100%);
-    color: #47bcff;
+    color: hsl(202, 100%, 50%);
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
